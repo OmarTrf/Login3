@@ -1,0 +1,74 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: radial-gradient(#c410ff,#d048fc,#c410ff);
+	height: 100vh;
+}
+.content{
+	width: 430px;
+	margin: 130px auto; 
+	position: relative;
+}
+.content header{
+	font-size: 28px;
+	font-weight:bold;
+	color: white;
+	padding: 25px 0 30px 25px;
+	background: #5c1769;
+	border-bottom: 1px solid #370e3f;
+	border-radius: 5px 5px 0 0; 
+	text-align: center;
+	letter-spacing: 1px;
+}
+.content form{
+	width: 100%;
+	padding: 50px 10px 0 30px;
+	box-sizing: border-box;
+	position: absolute;
+	background: #ddd;
+	border-radius: 0 0 5px 5px; 
+}
+.content form input{
+	width: 90%;
+	height: 50px;
+	padding: 0 10px;
+	border: 1px solid silver;
+	border-radius: 3px;
+	font-size: 18px;
+	outline: none;
+}
+.content form input:focus{
+	border-color: #000;
+	transition: .8s;
+}
+.content form input[type="text"]{
+	margin-bottom: 20px;
+}
+.content form input[type="submit"],
+.content form input[type="reset"]{
+	margin-top:40px;
+	width: 130px;
+	height: 45px;
+	color: #fff;
+	cursor: pointer;
+	line-height: 45px;
+	border-radius: 5px;
+	background: #5c1769;
+}
+.content form input[type="submit"]:hover,
+.content form input[type="reset"]:hover{
+	background: radial-gradient(#c410ff,#d048fc,#c410ff);
+	transition: .5s;
+	color: #ddd;
+}
+.content form a{
+	text-decoration: none;
+	color: #7f2092;
+	font-size: 19px;
+	display: block;
+	margin: 25px auto;
+}
+.content form a:hover{
+	color: #7107f5;
+	text-decoration: underline;
+}
